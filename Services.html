@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services of PharmaSync</title>
+    <link href="style_PS.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+
+  </head>
+
+  <body>
+    <header class="header">
+      <div>
+      <a href="index.html" class="logo"> <img src="PS_img/PS_logo.png" alt="Logo" class="logo-img" /> <span> PharmaSync</span> </a>
+      </div>
+  
+      <div>
+      <ul class="navbar">
+        <li>
+          <a class="active" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="active" href="AboutUs.html">About Us</a>
+        </li>
+        <li>
+          <a class="active" href="Services.html">Services</a>
+        </li>
+      </ul>
+      </div>
+  
+      <div class="main">
+        <a href="Login.php">Sign In</a>
+      </div>
+  </header>
+      <br><br><br><br><br>
+
+    <section id="services">
+      <h2 class="services-title">Our Medication Management Services</h2>
+      
+      <div class="services-grid">
+        
+        <div class="service-card">
+          <h3>Easy Medication Input</h3>
+          <p>Add your medications easily with full details like dosage, frequency, and method.</p>
+          <ul>
+            <li>- Quick drug search database</li>
+            <li>- Custom medication entry</li>
+            <li>- Upload images for reference</li>
+          </ul>
+        </div>
+    
+        <div class="service-card">
+          <h3>Smart Reminders</h3>
+          <p>Never miss a dose with flexible, personalized reminder settings.</p>
+          <ul>
+            <li>- Custom reminder schedules</li>
+            <li>- Notifications via app and email</li>
+            <li>- Snooze and mark-as-taken options</li>
+          </ul>
+        </div>
+    
+        <div class="service-card">
+          <h3>Dosage Tracking</h3>
+          <p>Stay on top of your intake with clear records of your medication history.</p>
+          <ul>
+            <li>- Calendar overview</li>
+            <li>- History of doses taken/missed</li>
+            <li>- Progress reports on adherence</li>
+          </ul>
+        </div>
+    
+        <div class="service-card">
+          <h3>Refill Reminders</h3>
+          <p>Get notified when your medication supply is running low to avoid missing doses.</p>
+          <ul>
+            <li>- Automated supply tracking</li>
+            <li>- Refill with partner pharmacies</li>
+            <li>- Low stock alerts</li>
+          </ul>
+        </div>
+    
+      </div>
+    </section>
+
+
+
+
+
+    <section class="faq1">
+      <div class="about-content">
+        <div class="about-text">
+          <br><br><br>
+          <h1>Frequently Asked Questions (FAQs)</h1>
+          <p>Got Questions? We’ve Got Answers!</p>
+          <p>
+            <br />
+            Find answers to common queries related to our services and
+            medication management with PharmaSync. We've also included general
+            health information to support your well-being. Our FAQs are
+            categorized for your convenience,
+          </p>
+        </div>
+      </div>
+      <br /><br />
+    
+      <div class="faq2">
+        <h1>PharmaSync and Medication Management (FAQs)</h1>
+      </div>
+    
+      <div
+        class="faq-question"
+        onclick="toggleAnswer('consultations-faq1', this)"
+      >
+        <h1>How does PharmaSync help me manage my medications?</h1>
+        <div class="arrow"><i class="ri-add-line"></i></div>
+      </div>
+    
+      <div id="consultations-faq1" class="faq-answer">
+        <p>
+          PharmaSync allows you to easily add and track your medications, set up
+          reminders for doses, receive alerts for refills, and securely store
+          your prescription details. It simplifies the entire medication
+          management process.
+        </p>
+      </div>
+    
+      <div
+        class="faq-question"
+        onclick="toggleAnswer('appointments-faq1', this)"
+      >
+        <h1>Can PharmaSync remind me when to take my medication?</h1>
+        <div class="arrow"><i class="ri-add-line"></i></div>
+      </div>
+    
+      <div id="appointments-faq1" class="faq-answer">
+        <p>
+          Yes, PharmaSync provides automated reminders to ensure you never miss
+          a dose. You can customize the frequency and timing of these reminders
+          to fit your schedule.
+        </p>
+      </div>
+    
+      <div
+        class="faq-question"
+        onclick="toggleAnswer('accessing-resources-faq1', this)"
+      >
+        <h1>Does PharmaSync alert me when it's time for a refill?</h1>
+        <div class="arrow"><i class="ri-add-line"></i></div>
+      </div>
+    
+      <div id="accessing-resources-faq1" class="faq-answer">
+        <p>
+          Absolutely! PharmaSync offers refill alerts to notify you when it's
+          time to order more medication, helping you avoid running out.
+        </p>
+      </div>
+      <br /><br />
+    
+      <div class="faq2"><h1>General Health Information (FAQs)</h1></div>
+    
+      <div
+        class="faq-question"
+        onclick="toggleAnswer('consultations-faq2', this)"
+      >
+        <h1>
+          Where can I find reliable health information related to my
+          medications?
+        </h1>
+        <div class="arrow"><i class="ri-add-line"></i></div>
+      </div>
+    
+      <div id="consultations-faq2" class="faq-answer">
+        <p>
+          PharmaSync aims to provide links to reputable sources for
+          health-related information, such as the articles featured on this
+          page. We encourage you to consult with your healthcare provider for
+          personalized medical advice. (See the articles section above for
+          helpful links.)
+        </p>
+      </div>
+    
+      <div
+        class="faq-question"
+        onclick="toggleAnswer('appointments-faq2', this)"
+      >
+        <h1>Are the health articles on PharmaSync updated regularly?</h1>
+        <div class="arrow"><i class="ri-add-line"></i></div>
+      </div>
+    
+      <div id="appointments-faq2" class="faq-answer">
+        <p>
+          We strive to provide access to current and relevant health
+          information. The articles linked on PharmaSync are sourced from
+          reputable websites that are generally kept up-to-date. However, it's
+          always good to check the publication date of any article.
+        </p>
+      </div>
+    
+      <div
+        class="faq-question"
+        onclick="toggleAnswer('accessing-resources-faq2', this)"
+      >
+        <h1>
+          Can PharmaSync provide information on potential drug interactions or
+          side effects?
+        </h1>
+        <div class="arrow"><i class="ri-add-line"></i></div>
+      </div>
+    
+      <div id="accessing-resources-faq2" class="faq-answer">
+        <p>
+          PharmaSync focuses on medication tracking and reminders. While we aim
+          to enhance medication safety, it is crucial to consult your doctor or
+          pharmacist for information on drug interactions and side effects. They
+          can provide personalized advice based on your health profile.
+        </p>
+      </div>
+    </section>
+    
+    <script>
+      function toggleAnswer(id, questionElement) {
+        var answer = document.getElementById(id);
+        if (answer.style.display === "none" || answer.style.display === "") {
+          answer.style.display = "block"; // Show the answer
+          questionElement.classList.add("active"); // Add active class to question
+        } else {
+          answer.style.display = "none"; // Hide the answer
+          questionElement.classList.remove("active"); // Remove active class from question
+        }
+      }
+    </script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <section class="footer" id="footer">
+ 
+      <div class="footer-container">
+          <div>
+              <h3>Navigation Links</h3>
+              <a href="AboutUs.html" class="footer-link">About Us</a><br>
+              <a href="Services.html" class="footer-link">Services</a><br>
+          </div>
+    
+          <div>
+              <h3>Stay connected with us! Follow us on social media for updates!</h3>
+              <ul>
+                  <li><a href="https://www.instagram.com/healthconnect.ph/profilecard" target="_blank" class="bx bxl-instagram"></a></li>
+                  <li><a href="https://www.facebook.com/profile.php?id=61575216952533" target="_blank" class="bx bxl-facebook-circle"></a></li>
+                  <li><a href="https://www.tiktok.com/@pharmasync" target="_blank" class="bx bxl-tiktok"></a></li>
+              </ul>
+          </div>
+    
+          <div>
+              <h3>Contact Us</h3>
+              <span>+63 995 9616683</span>
+              <span>+632 8888 9292 </span><br>
+              <span>
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pharmasync.ph@gmail.com" target="_blank">
+                        pharmasync.ph@gmail.com  </a>
+              </span>
+              <span>PharmaSync.com.ph</span>
+          </div>
+      </div>
+    
+      <p>&copy; 2025 Reserved by MedSigma</p>
+    </section>
+
+
+
+    <a href="#"
+      ><button class="topbtn" title="Back to Top">
+        <i class="fa-solid fas fa-angle-up"></i></button
+    ></a>
+    <script type="text/javascript" src="script_PS.js"></script>
+  </body>
+</html>
